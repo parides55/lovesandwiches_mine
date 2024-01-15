@@ -86,7 +86,7 @@ def update_surplus_worksheet(data):
     print("Updating surplus worksheet...\n")
     surplus_worksheet = SHEET.worksheet('surplus')
     surplus_worksheet.append_row(data)
-    print("Surplus worksheet upadated succesfully\n")
+    print("Surplus worksheet upadated succesfully!\n")
     
 
 def main():
